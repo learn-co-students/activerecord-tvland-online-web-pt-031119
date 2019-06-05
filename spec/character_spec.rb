@@ -1,6 +1,6 @@
 require_relative 'spec_helper'
 
-describe Character do
+describe Character do 
 
   it "belongs to an actor" do
     danny_pudi = Actor.create(first_name: "Danny", last_name: "Pudi")
