@@ -40,7 +40,7 @@ describe Show do
     #TODO: you'll need to add yet another new field to shows here
     show.name = "Gilmore Girls"
     show.genre = "Dramedy"
-    show.save
+    show.save 
     dramedy = Show.find_by(:genre => "Dramedy")
     expect(dramedy.name).to eq("Gilmore Girls")
   end
