@@ -4,6 +4,7 @@ class CreateCharactersTable < ActiveRecord::Migration[4.2]
               t.string  :name
               t.integer :actor_id
               t.integer :show_id
+              t.string :catchphrase
         end
     end
 end
